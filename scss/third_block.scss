@@ -1,0 +1,30 @@
+
+section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        padding: 150px;
+        background: $background-1;
+  
+    .paragraph {
+      width: 33%;
+  
+      .fa-display {
+        @include fa-style;
+      }
+  
+      .fa-circle-check {
+        @include fa-style;
+      }
+  
+      .fa-layer-group {
+        @include fa-style;
+      }
+  
+      h3 {
+        margin: 10px;
+      }
+    }
+  }
+  

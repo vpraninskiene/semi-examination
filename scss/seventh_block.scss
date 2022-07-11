@@ -1,0 +1,42 @@
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: $background-1;
+  
+    ul {
+      display: flex;
+  
+      li {
+        padding: 50px 5px 10px 5px;
+        list-style: none; 
+      }
+  
+      li:first-of-type {
+        padding-left: 0px;
+      } 
+  
+      li:nth-child(odd){
+        color: $color-dodgerblue;
+      }
+  
+      li:nth-child(even){
+        color: $color-gray;
+      }
+    } 
+  
+    p {
+      color: $color-gray;
+      padding-bottom: 50px;
+      font-size: 12px;
+    }
+    
+    .icons{
+      color: $color-dodgerblue;
+      margin: 50px;
+      font-size: 2em;
+      word-spacing: 15px  
+    }
+  }
+  

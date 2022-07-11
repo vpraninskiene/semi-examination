@@ -1,0 +1,55 @@
+// 4th block
+
+main {
+    display: flex;
+    flex-direction: row;
+    
+    h3 {
+      padding: 15% 40px 20px 40px;
+    }
+  
+    p {
+      padding: 0px 40px;
+    }
+   
+    .img-1 {
+      height: 350px;
+      width: 100%;
+      background: $img-2;
+      @include background-style;
+      align-items: center
+    }
+  
+    .content-1 {
+      width: 100%;     
+    }
+  
+  .img-2 {
+    height: 350px;
+    width: 100%;
+    background: $img-3;
+    @include background-style;
+    flex-direction: row-reverse
+  }
+  
+  .content-2 {
+    width: 100%;
+  }
+  
+  .img-3 {
+    height: 350px;
+    width: 100%;
+    background: $img-4;
+    @include background-style;
+  }
+  
+  .content-3 {
+    width: 100%;
+  }
+  
+  &:nth-child(even){
+    flex-direction: row-reverse;
+  }
+  
+  }
+  

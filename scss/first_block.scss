@@ -1,0 +1,22 @@
+
+
+nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 10px;
+      background: $background-1;
+      position: fixed; 
+      width: 100%;
+    
+    button {
+      background-color: $color-dodgerblue; 
+      color: $color-white;
+      @include button-style;
+      width: 80px;
+    }
+  
+    p {
+      padding: 10px;
+    }  
+  }

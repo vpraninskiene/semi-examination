@@ -1,0 +1,40 @@
+
+
+.article-head {
+  text-align: center;
+  padding: 60px 20px 20px 20px;
+  background: $background-1;
+}
+
+.article-wrap {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  padding-bottom: 50px;
+  background: $background-1;
+  text-align: center;
+
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .avatar-1 {
+      background: $img-5;
+      @include background-style;
+      @include avatar-style;
+    }
+
+    .avatar-2 {
+      background: $img-6;
+      @include background-style;
+      @include avatar-style; 
+    }
+
+    .avatar-3 {
+      background: $img-7;
+      @include background-style;
+      @include avatar-style; 
+    }
+  }
+}

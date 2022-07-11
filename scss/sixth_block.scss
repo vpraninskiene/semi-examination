@@ -1,0 +1,28 @@
+
+
+aside {
+  
+    text-align: center;
+    padding: 100px;
+    background: $img-1;
+    @include background-style;
+    color: $color-white;
+  
+    .sign-up {
+      @include sign-up-style;
+    }
+  
+    input {
+      @include input-style;
+    }
+  
+    button {
+      background-color: $color-dodgerblue;
+      color: $color-white;
+      @include button-style;
+      text-align: center;
+      width: 130px;
+      height: 25%;
+      border: 2px solid $color-dodgerblue;
+    }
+  }
